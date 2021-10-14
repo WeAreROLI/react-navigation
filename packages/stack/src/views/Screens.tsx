@@ -20,7 +20,7 @@ export const MaybeScreenContainer = ({
     return <Screens.ScreenContainer enabled={enabled} {...rest} />;
   }
 
-  return <View {...rest} />;
+  return <View {...rest} pointerEvents="box-none" />;
 };
 
 export const MaybeScreen = ({

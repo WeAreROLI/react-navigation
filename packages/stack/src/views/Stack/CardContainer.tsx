@@ -275,9 +275,9 @@ function CardContainer({
         StyleSheet.absoluteFill,
       ]}
     >
-      <View style={styles.container}>
+      <View style={styles.container} pointerEvents="box-none">
         <ModalPresentationContext.Provider value={modal}>
-          <View style={styles.scene}>
+          <View style={styles.scene} pointerEvents="box-none">
             <HeaderBackContext.Provider value={headerBack}>
               <HeaderShownContext.Provider
                 value={isParentHeaderShown || headerShown !== false}

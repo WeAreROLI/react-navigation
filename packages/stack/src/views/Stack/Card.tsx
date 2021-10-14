@@ -536,6 +536,7 @@ export default class Card extends React.Component<Props> {
               <Animated.View
                 needsOffscreenAlphaCompositing={hasOpacityStyle(cardStyle)}
                 style={[styles.container, cardStyle]}
+                pointerEvents="box-none"
               >
                 {shadowEnabled && shadowStyle && !isTransparent ? (
                   <Animated.View
