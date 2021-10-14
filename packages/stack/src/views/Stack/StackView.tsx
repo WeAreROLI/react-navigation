@@ -426,7 +426,7 @@ export default class StackView extends React.Component<Props, State> {
       this.state;
 
     return (
-      <GestureHandlerWrapper style={styles.container}>
+      <GestureHandlerWrapper style={styles.container} pointerEvents="box-none">
         <SafeAreaProviderCompat>
           <SafeAreaInsetsContext.Consumer>
             {(insets) => (
