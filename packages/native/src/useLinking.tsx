@@ -457,7 +457,7 @@ export default function useLinking(
           if (action !== undefined) {
             try {
               navigation.dispatch(action);
-            } catch (e) {
+            } catch (e: any) {
               // Ignore any errors from deep linking.
               // This could happen in case of malformed links, navigation object not being initialized etc.
               console.warn(
