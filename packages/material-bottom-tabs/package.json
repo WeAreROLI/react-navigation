@@ -44,7 +44,7 @@
     "@react-navigation/elements": "^1.2.1"
   },
   "devDependencies": {
-    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native": "^6.0.7",
     "@testing-library/react-native": "^7.2.0",
     "@types/react": "^17.0.9",
     "@types/react-native": "~0.64.9",
