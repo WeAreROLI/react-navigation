@@ -556,7 +556,7 @@ export default class CardStack extends React.Component<Props, State> {
     );
 
     return (
-      <Background>
+      <Background pointerEvents="box-none">
         {isFloatHeaderAbsolute ? null : floatingHeader}
         <MaybeScreenContainer
           enabled={detachInactiveScreens}
