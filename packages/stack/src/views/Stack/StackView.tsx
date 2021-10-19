@@ -21,7 +21,6 @@ import type {
   StackNavigationHelpers,
 } from '../../types';
 import ModalPresentationContext from '../../utils/ModalPresentationContext';
-import { GestureHandlerRootView } from '../GestureHandler';
 import HeaderContainer, {
   Props as HeaderContainerProps,
 } from '../Header/HeaderContainer';
@@ -51,7 +50,7 @@ type State = {
   descriptors: StackDescriptorMap;
 };
 
-const GestureHandlerWrapper = GestureHandlerRootView ?? View;
+const GestureHandlerWrapper = View;
 
 /**
  * Compare two arrays with primitive values as the content.
